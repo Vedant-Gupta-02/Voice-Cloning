@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- Global polish ---------- */
+html,
+body {
+  background-color: #0a0a0a;
+}
+
+/* Subtle scrollbar (ElevenLabs-like) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Smooth fonts */
+body {
+  font-feature-settings: "liga" 1, "calt" 1;
+}
