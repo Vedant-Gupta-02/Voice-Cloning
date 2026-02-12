@@ -71,28 +71,5 @@ A full-stack application that allows users to clone voices using a short audio r
 
 ---
 
-## Deployment / GitHub Upload
-
-Since this project contains a very large model file (`best_model_951.pth`), follow these steps to upload to GitHub:
-
-1. Initialize Git:
-   ```bash
-   git init
-   ```
-2. Add files (excluding the large model):
-   ```bash
-   git add .
-   ```
-3. Commit:
-   ```bash
-   git commit -m "Initial commit: Voice Cloning Integration"
-   ```
-4. Push to your repository:
-   ```bash
-   git remote add origin <your-repo-url>
-   git branch -M main
-   git push -u origin main
-   ```
-
 > [!IMPORTANT]
-> The `.pth` model file is too large for standard GitHub repositories. We recommend hosting the model on Google Drive or HuggingFace and adding a download link to this README for others to set it up.
+> The `.pth` model file is too large for GitHub repository. We will be hosting the model on Google Drive or HuggingFace and adding a download link to this README for others to set it up.
